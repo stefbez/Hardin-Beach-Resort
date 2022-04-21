@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "yellowtail";
+  src: url("https://use.typekit.net/af/c431ea/00000000000000007735a180/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/c431ea/00000000000000007735a180/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/c431ea/00000000000000007735a180/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: url("../img/dots-bg.png");
+  font-family: "yellowtail", Helvetica, Arial, sans-serif;
+}
+
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100vh;
+  min-height: 500px;
+}
+.coming-soon img {
+  width: 100%;
+  max-width: 500px;
+}
+.coming-soon h1 {
+  font-size: 14vw;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+@media (min-width: 500px) {
+  .coming-soon h1 {
+    font-size: 70px;
+  }
+}
