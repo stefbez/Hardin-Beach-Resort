@@ -6,6 +6,11 @@
   font-weight: 400;
   font-stretch: normal;
 }
+@font-face {
+  font-family: "raleway";
+  src: url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 1 999;
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +19,7 @@
 
 body {
   background: url("../img/dots-bg.png");
-  font-family: "yellowtail", Helvetica, Arial, sans-serif;
+  font-family: "raleway", Helvetica, Arial, sans-serif;
 }
 
 .coming-soon {
@@ -31,6 +36,7 @@ body {
   max-width: 500px;
 }
 .coming-soon h1 {
+  font-family: "yellowtail", Helvetica, Arial, sans-serif;
   font-size: 14vw;
   font-weight: 400;
   margin: 1rem 0;
@@ -39,4 +45,4 @@ body {
   .coming-soon h1 {
     font-size: 70px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
