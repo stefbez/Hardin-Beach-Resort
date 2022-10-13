@@ -18,11 +18,14 @@
 }
 
 body {
-  background: url("../img/dots-bg.png");
+  background-color: #f4f3f1;
   font-family: "raleway", Helvetica, Arial, sans-serif;
 }
 
 .coming-soon {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,6 +33,9 @@ body {
   flex-wrap: nowrap;
   height: 100vh;
   min-height: 500px;
+  width: 100vw;
+  background: url("../img/dots-bg.png");
+  z-index: 999;
 }
 .coming-soon img {
   width: 100%;
@@ -45,4 +51,12 @@ body {
   .coming-soon h1 {
     font-size: 70px;
   }
+}
+
+header .navbar .logo {
+  height: 50px;
+  width: 50px;
+}
+header .navbar .logo img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
