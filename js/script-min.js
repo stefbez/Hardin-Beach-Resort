@@ -1,1 +1,1 @@
-$(document).ready((function(){$("#introSlider").slick({})}));
+$(document).ready((function(){$("#introSlider").slick({autoplay:!1,autoplaySpeed:5e3,arrows:!1,mobileFirst:!0,touchThreshold:3})}));

@@ -75,3 +75,60 @@ header {
         }
     }
 }
+
+// Slick Slider
+
+.intro-slider {
+    .slick-list,
+    .slick-track {
+        height: 70vh;
+        min-height: 600px;
+        max-height: 800px;
+    }
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .slick-slide {
+        &:nth-child(2) {
+            img {
+                object-position: 0 0px;
+            }
+        }
+        &:nth-child(3) {
+            img {
+                object-position: 0 -600px;
+            }
+        }
+        &:nth-child(4) {
+            img {
+                object-position: 0 -900px;
+            }
+        }
+        &:nth-child(5) {
+            img {
+                object-position: 0 -195px;
+            }
+        }
+        &:nth-child(6) {
+            img {
+                object-position: 0 -400px;
+            }
+        }
+        &:nth-child(7) {
+            img {
+                object-position: 0 -300px;
+            }
+        }
+        &:nth-child(8) {
+            img {
+                object-position: 0 -600px;
+            }
+        }
+        &:nth-child(9) {
+            img {
+                object-position: 0 -300px;
+            }
+        }
+    }
+}

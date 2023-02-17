@@ -1,5 +1,9 @@
 $(document).ready(function(){
     $('#introSlider').slick({
-    //   setting-name: setting-value
+        autoplay: false,
+        autoplaySpeed: 5000,
+        arrows: false,
+        mobileFirst: true,
+        touchThreshold: 3,
     });
   });
