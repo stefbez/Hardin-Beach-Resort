@@ -27,7 +27,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -86,4 +86,4 @@ header .navbar .logo img {
 header .navbar .links {
   flex: 0 0 auto;
   margin: 0 1rem;
-}/*# sourceMappingURL=style.css.map */
+}
