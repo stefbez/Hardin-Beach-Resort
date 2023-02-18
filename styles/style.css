@@ -62,7 +62,7 @@ ul li ul li {
   position: fixed;
   top: 0;
   left: 0;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,7 @@ ul li ul li {
   min-height: 500px;
   width: 100vw;
   background: url("../img/dots-bg.png");
-  z-index: 999;
+  z-index: 999999;
 }
 .coming-soon img {
   width: 100%;
