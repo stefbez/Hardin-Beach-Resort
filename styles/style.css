@@ -96,6 +96,10 @@ header .navbar .links {
   flex: 0 0 auto;
   margin: 0 1rem;
 }
+header .navbar .links a {
+  color: #000;
+  text-decoration: none;
+}
 
 .frame {
   max-width: 1920px;

@@ -72,6 +72,10 @@ header {
         .links {
             flex: 0 0 auto;
             margin: 0 1rem;
+            a {
+                color: #000;
+                text-decoration: none;
+            }
         }
     }
 }
