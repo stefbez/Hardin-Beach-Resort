@@ -20,6 +20,15 @@ p {
   font-family: "raleway", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +39,23 @@ body {
   background-color: #f4f3f1;
   font-family: "raleway", Helvetica, Arial, sans-serif;
   font-size: 16px;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+  list-style-type: "- ";
+}
+ul li {
+  margin-bottom: 1rem;
+}
+ul li ul {
+  padding-left: 15px;
+}
+ul li ul li {
+  list-style-type: none;
 }
 
 .coming-soon {
@@ -166,6 +192,7 @@ header .navbar .links a {
 
 .down-arrow {
   position: relative;
+  margin-bottom: 18rem;
 }
 .down-arrow a {
   position: absolute;
@@ -215,4 +242,50 @@ header .navbar .links a {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
+}
+
+#about {
+  margin: 5rem 0;
+  padding: 2rem 1rem;
+}
+#about .section-header {
+  text-align: center;
+}
+#about .section-header h1 {
+  margin-bottom: 1rem;
+}
+#about .grid-section-1 {
+  padding: 3rem 0;
+}
+#about .grid-section-1 .grid-row {
+  max-width: 1140px;
+  gap: 1rem;
+}
+#about .grid-section-1 .grid-col:last-child {
+  padding: 0;
+}
+@media (min-width: 1000px) {
+  #about .grid-section-1 .grid-col:first-child {
+    max-width: 350px;
+    justify-self: end;
+  }
+}
+#about .grid-row {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+@media (min-width: 1000px) {
+  #about .grid-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+#about .grid-col {
+  position: relative;
+  padding: 3rem 4rem;
+}
+#about .grid-col img {
+  width: 100%;
+  border-radius: 5px;
 }
