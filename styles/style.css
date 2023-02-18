@@ -11,6 +11,15 @@
   src: url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype-variations");
   font-weight: 1 999;
 }
+h1, h2, h3, h4, h5 {
+  font-family: "yellowtail", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: "raleway", Helvetica, Arial, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +36,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -88,6 +97,34 @@ header .navbar .links {
   margin: 0 1rem;
 }
 
+.frame {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.intro-slider .welcome-text-container {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  z-index: 999;
+  transform: translateX(-50%);
+}
+.intro-slider .welcome-text-container p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.intro-slider .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #f4f3f1;
+  background: linear-gradient(180deg, rgba(244, 243, 241, 0) 0%, rgba(244, 243, 241, 0) 50%, #f4f3f1 100%);
+  top: 5px;
+  left: 0;
+  z-index: 99;
+  pointer-events: none;
+}
 .intro-slider .slick-list,
 .intro-slider .slick-track {
   height: 70vh;
@@ -111,7 +148,7 @@ header .navbar .links {
   object-position: 0 -195px;
 }
 .intro-slider .slick-slide:nth-child(6) img {
-  object-position: 0 -400px;
+  object-position: 0 -300px;
 }
 .intro-slider .slick-slide:nth-child(7) img {
   object-position: 0 -300px;
@@ -121,4 +158,57 @@ header .navbar .links {
 }
 .intro-slider .slick-slide:nth-child(9) img {
   object-position: 0 -300px;
+}
+
+.down-arrow {
+  position: relative;
+}
+.down-arrow a {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  padding-top: 70px;
+}
+.down-arrow a span {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: -12px;
+  border-left: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  transform: rotate(-45deg);
+  animation: sdb05 2s infinite;
+  box-sizing: border-box;
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
 }

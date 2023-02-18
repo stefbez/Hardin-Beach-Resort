@@ -12,3 +12,12 @@
 
 $heading-font: 'yellowtail', Helvetica, Arial, sans-serif;
 $text-font: 'raleway', Helvetica, Arial, sans-serif;
+
+h1, h2, h3, h4, h5 {
+    font-family: $heading-font;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: $text-font;
+}
