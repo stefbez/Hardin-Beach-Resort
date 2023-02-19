@@ -63,7 +63,7 @@ h2 {
 .intro-slider .slick-list,
 .intro-slider .slick-track {
   height: calc(100vh - 181px - 50px);
-  min-height: 600px;
+  min-height: 500px;
 }
 .intro-slider img {
   width: 100%;
