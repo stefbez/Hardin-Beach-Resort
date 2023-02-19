@@ -1,4 +1,5 @@
 @import "partials/font-face";
+@import "partials/slick-slider";
 
 * { 
     margin: 0; 
@@ -33,8 +34,8 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
-    // display: none;
+    // display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -100,98 +101,6 @@ header {
 .frame {
     max-width: 1920px;
     margin: 0 auto;
-}
-
-// Slick Slider
-
-.intro-slider {
-    .welcome-text-container {
-        position: absolute;
-        bottom: -50px;
-        left: 50%;
-        z-index: 999;
-        transform: translateX(-50%);
-        p {
-            text-align: center;
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-    }
-    .overlay {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: rgb(244,243,241);
-        background: linear-gradient(180deg, rgba(244,243,241,0) 0%, rgba(244,243,241,0) 50%, rgba(244,243,241,1) 100%);
-        top: 5px;
-        left: 0;
-        z-index: 99;
-        pointer-events: none;
-    }
-    .slick-list {
-        // &::after {
-        //     content: '';
-        //     display: block;
-        //     height: 100%;
-        //     width: 100%;
-        //     background: rgb(244,243,241);
-        //     background: linear-gradient(180deg, rgba(244,243,241,0) 0%, rgba(244,243,241,0) 50%, rgba(244,243,241,1) 100%);
-        //     position: fixed;
-        //     top: 0;
-        // }
-    }
-    .slick-list,
-    .slick-track {
-        height: 70vh;
-        min-height: 600px;
-        max-height: 800px;
-    }
-    img {
-        width: 100%;
-        object-fit: cover;
-    }
-    .slick-slide {
-        &:nth-child(2) {
-            img {
-                object-position: 0 0px;
-            }
-        }
-        &:nth-child(3) {
-            img {
-                object-position: 0 -600px;
-            }
-        }
-        &:nth-child(4) {
-            img {
-                object-position: 0 -900px;
-            }
-        }
-        &:nth-child(5) {
-            img {
-                object-position: 0 -195px;
-            }
-        }
-        &:nth-child(6) {
-            img {
-                object-position: 0 -300px;
-            }
-        }
-        &:nth-child(7) {
-            img {
-                object-position: 0 -300px;
-            }
-        }
-        &:nth-child(8) {
-            img {
-                object-position: 0 -600px;
-            }
-        }
-        &:nth-child(9) {
-            img {
-                object-position: 0 -300px;
-            }
-        }
-    }
 }
 
 .down-arrow { 
