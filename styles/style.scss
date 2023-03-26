@@ -214,6 +214,9 @@ header {
         img {
             width: 100%;
             border-radius: 5px;
+            max-height: 421.5px;
+            max-width: 700px;
+            object-fit: cover;
         }
     }
 }

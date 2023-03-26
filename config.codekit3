@@ -38,6 +38,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/accomodation\/accom-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 431542,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/accomodation\/accom-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/accomodation\/accom-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 492078,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/accomodation\/accom-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/accomodation\/accom-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 330885,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/accomodation\/accom-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/bg-img.svg" : {
       "ft" : 2097152,
       "miP" : 0,
