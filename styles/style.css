@@ -502,3 +502,10 @@ section {
   display: block;
   margin: 0 auto;
 }
+
+.footer .wrapper {
+  padding: 1rem 0.5rem;
+}
+.footer .wrapper p {
+  text-align: center;
+}
