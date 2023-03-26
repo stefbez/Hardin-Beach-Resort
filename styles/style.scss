@@ -175,15 +175,16 @@ header {
     }   
 }
 
+.section-header {
+    text-align: center;
+    h1 {
+        margin-bottom: 1rem;
+    }
+}
+
 #about {
     margin: 5rem 0;
     padding: 2rem 1rem;
-    .section-header {
-        text-align: center;
-        h1 {
-            margin-bottom: 1rem;
-        }
-    }
     .grid-container {
         padding: 3rem 0;
     }

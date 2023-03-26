@@ -427,15 +427,16 @@ header .navbar .links a:last-child {
   }
 }
 
+.section-header {
+  text-align: center;
+}
+.section-header h1 {
+  margin-bottom: 1rem;
+}
+
 #about {
   margin: 5rem 0;
   padding: 2rem 1rem;
-}
-#about .section-header {
-  text-align: center;
-}
-#about .section-header h1 {
-  margin-bottom: 1rem;
 }
 #about .grid-container {
   padding: 3rem 0;
