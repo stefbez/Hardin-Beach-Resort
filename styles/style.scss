@@ -1,6 +1,7 @@
 @import "partials/font-face";
 @import "partials/slick-slider";
 @import "partials/mobile-nav";
+@import "partials/menu-modal";
 
 * { 
     margin: 0; 
@@ -183,8 +184,10 @@ header {
             margin-bottom: 1rem;
         }
     }
-    .grid-section-1 {
+    .grid-container {
         padding: 3rem 0;
+    }
+    .grid-section {
         
         .grid-row {
             max-width: 1140px;
@@ -198,7 +201,19 @@ header {
         .grid-col:first-child {
             @media (min-width: 1000px) {
                 max-width: 350px;
-                justify-self: end;
+                justify-self: center;
+            }
+        }
+    }
+    .grid-section-2 {
+        @media (min-width: 1000px) {
+            .grid-col:first-child {
+                grid-column: 2;
+                grid-row: 1;
+            }
+            .grid-col:last-child {
+                grid-column: 1;
+                grid-row: 1;
             }
         }
     }

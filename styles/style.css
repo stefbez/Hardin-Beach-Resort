@@ -220,6 +220,42 @@ h2 {
   transform: none;
 }
 
+#menuModal {
+  position: fixed;
+  z-index: 99999999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 50px 0;
+  background-color: #000000af;
+  display: none;
+  overflow: auto;
+}
+#menuModal #menuModalFrame {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+}
+#menuModal .closeMenu {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#menuModal:hover, #menuModal:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menuLink {
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -401,20 +437,30 @@ header .navbar .links a:last-child {
 #about .section-header h1 {
   margin-bottom: 1rem;
 }
-#about .grid-section-1 {
+#about .grid-container {
   padding: 3rem 0;
 }
-#about .grid-section-1 .grid-row {
+#about .grid-section .grid-row {
   max-width: 1140px;
   gap: 1rem;
 }
-#about .grid-section-1 .grid-col:last-child {
+#about .grid-section .grid-col:last-child {
   padding: 0;
 }
 @media (min-width: 1000px) {
-  #about .grid-section-1 .grid-col:first-child {
+  #about .grid-section .grid-col:first-child {
     max-width: 350px;
-    justify-self: end;
+    justify-self: center;
+  }
+}
+@media (min-width: 1000px) {
+  #about .grid-section-2 .grid-col:first-child {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #about .grid-section-2 .grid-col:last-child {
+    grid-column: 1;
+    grid-row: 1;
   }
 }
 #about .grid-row {
