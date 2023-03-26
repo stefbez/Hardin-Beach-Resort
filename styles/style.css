@@ -321,6 +321,7 @@ header {
   padding: 0.75rem 0.5rem;
   background-image: url("../img/bg-img.svg");
   background-size: 65px;
+  background-repeat: repeat;
   position: fixed;
   top: 0;
   z-index: 9999;
