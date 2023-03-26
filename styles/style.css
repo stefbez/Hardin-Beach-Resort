@@ -320,7 +320,7 @@ ul li ul li {
 header {
   padding: 0.75rem 0.5rem;
   background-image: url("../img/bg-img.svg");
-  background-size: 65px 131%;
+  background-size: 65px;
   background-repeat: repeat;
   position: fixed;
   top: 0;
@@ -435,9 +435,12 @@ header .navbar .links a:last-child {
   margin-bottom: 1rem;
 }
 
-#about {
-  margin: 5rem 0;
+section {
   padding: 2rem 1rem;
+}
+
+#about {
+  margin: 5rem 0 0;
 }
 #about .grid-container {
   padding: 3rem 0;
@@ -486,4 +489,16 @@ header .navbar .links a:last-child {
   max-height: 421.5px;
   max-width: 700px;
   object-fit: cover;
+}
+
+#contact .contact-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#contact .contact-container h2 {
+  text-align: center;
+}
+#contact .contact-container iframe {
+  display: block;
+  margin: 0 auto;
 }
